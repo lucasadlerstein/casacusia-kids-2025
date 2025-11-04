@@ -58,8 +58,8 @@ export function Hero() {
             <Image
               src='/images/logo-amplitone.png'
               alt='Amplitone'
-              width={150}
-              height={40}
+              width={175}
+              height={55}
               className='h-6 md:h-8 w-auto drop-shadow-[0px_0px_10px_rgba(0,0,0,0.25)]'
             />
           </div>
@@ -75,7 +75,10 @@ export function Hero() {
               className='bg-deep-blue z-10 hover:bg-deep-blue/90 hover:scale-105 text-white font-bold text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all'
               asChild
             >
-              <Link href='#inscripcion'>Inscribirme ahora</Link>
+              <Link
+                href='https://luma.com/lu65w0js'
+                target='_blank'
+              >Inscribirme ahora</Link>
             </Button>
             <p className='text-sm font-semibold text-cream'>
               Inscripción gratuita y obligatoria

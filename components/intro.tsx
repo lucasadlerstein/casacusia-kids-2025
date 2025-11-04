@@ -50,7 +50,8 @@ export function Intro() {
           </div>
           <Link
             className='bg-[#F44475] hover:bg-[#F44475]/90 text-white font-semibold rounded-lg px-4 py-2'
-            href='#inscripcion'
+            href='https://luma.com/lu65w0js'
+            target='_blank'
           >
             Inscribirme
           </Link>

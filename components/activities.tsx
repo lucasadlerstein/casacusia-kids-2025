@@ -112,7 +112,8 @@ export function Activities() {
           </Button>
 
           <Link
-            href='#inscripcion'
+            href='https://luma.com/lu65w0js'
+            target='_blank'
             className='text-lg transition-all duration-300 bg-violet hover:bg-violet/90 hover:scale-105 text-white font-semibold rounded-lg px-4 py-2'
           >
             Inscribirme ahora

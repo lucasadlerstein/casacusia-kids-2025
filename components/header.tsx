@@ -54,7 +54,10 @@ export function Header() {
             className='bg-violet hidden md:block hover:bg-violet/90 text-white font-semibold'
             asChild
           >
-            <Link href='#inscripcion'>Inscribirme</Link>
+            <Link
+              href='https://luma.com/lu65w0js'
+              target='_blank'
+            >Inscribirme</Link>
           </Button>
           <button
             className='md:hidden'
