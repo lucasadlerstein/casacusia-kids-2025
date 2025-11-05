@@ -64,13 +64,13 @@ const activities = [
 
 export function Activities() {
   return (
-    <section id='actividades' className='bg-cream'>
+    <section id='actividades' className='bg-cream py-16 md:py-20'>
       <div className='px-4 flex flex-col gap-8'>
         <h2 className='text-3xl md:text-5xl font-bold text-deep-blue text-center'>
           Actividades y espacios
         </h2>
 
-        <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-6 '>
+        <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6'>
           {activities.map((activity, index) => {
             const Icon = activity.icon;
             const colorClass =
@@ -83,17 +83,17 @@ export function Activities() {
             return (
               <div
                 key={index}
-                className={`${colorClass} rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1`}
+                className={`${colorClass} rounded-lg md:rounded-2xl p-3 md:p-6 shadow-md md:shadow-lg hover:shadow-xl transition-all hover:-translate-y-1`}
               >
                 <div
-                  className={`w-16 h-16 rounded-xl flex items-center justify-center mb-4 mx-auto`}
+                  className={`w-8 h-8 md:w-16 md:h-16 rounded-md md:rounded-xl flex items-center justify-center mb-2 md:mb-4 mx-auto`}
                 >
-                  <Icon className='w-8 h-8 text-deep-blue' />
+                  <Icon className='w-4 h-4 md:w-8 md:h-8 text-deep-blue' />
                 </div>
-                <h3 className='text-lg font-bold text-deep-blue text-center mb-2'>
+                <h3 className='text-xs md:text-lg font-bold text-deep-blue text-center mb-1 md:mb-2 leading-tight'>
                   {activity.title}
                 </h3>
-                <p className='text-sm text-deep-blue/70 text-center'>
+                <p className='text-[10px] md:text-sm text-deep-blue/70 text-center leading-tight'>
                   {activity.description}
                 </p>
               </div>
@@ -114,6 +114,7 @@ export function Activities() {
           <Link
             href='https://luma.com/lu65w0js'
             target='_blank'
+            rel='noopener noreferrer'
             className='text-lg transition-all duration-300 bg-violet hover:bg-violet/90 hover:scale-105 text-white font-semibold rounded-lg px-4 py-2'
           >
             Inscribirme ahora

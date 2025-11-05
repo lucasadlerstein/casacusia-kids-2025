@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export function About() {
   return (
-    <section className='py-16 md:py-24'>
+    <section className='py-16 md:py-20'>
       <div className='container mx-auto px-4'>
         <div className='max-w-4xl mx-auto text-center'>
           <div className='mb-8 flex justify-center'>
@@ -19,10 +19,10 @@ export function About() {
             ¿Qué es CASACUSIA?
           </h2>
 
-          <div className='space-y-6 text-lg md:text-xl text-deep-blue/80 leading-relaxed'>
+          <div className='space-y-6 text-base md:text-lg lg:text-xl text-deep-blue/80 leading-relaxed'>
             <p className='text-pretty'>
               Somos una ONG que conecta personas con hipoacusia y sus familias,
-              <br />
+              <br className='hidden md:inline' />
               generando un espacio colectivo que nos acompañe a mejorar nuestra
               calidad de vida.
             </p>

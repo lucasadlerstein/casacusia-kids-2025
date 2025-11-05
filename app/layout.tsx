@@ -15,6 +15,11 @@ export const metadata: Metadata = {
   description:
     "Un evento gratuito para que chicos y chicas con hipoacusia se diviertan, jueguen y vean que no son los únicos. 30 de Noviembre, Parque de la Innovación.",
   generator: "v0.app",
+  icons: {
+    icon: "/images/isotipo-color.png",
+    shortcut: "/images/isotipo-color.png",
+    apple: "/images/isotipo-color.png",
+  },
 }
 
 export default function RootLayout({
@@ -23,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es">
+    <html lang="es" className="scroll-smooth">
       <body className={`${montserrat.variable} font-sans antialiased`}>
         {children}
         <Analytics />

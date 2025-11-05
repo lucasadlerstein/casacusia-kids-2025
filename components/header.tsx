@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Menu } from 'lucide-react';
 import { useState } from 'react';
+import HamburguerIcon from './hamburguer/HamburguerIcon';
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -57,47 +57,69 @@ export function Header() {
             <Link
               href='https://luma.com/lu65w0js'
               target='_blank'
-            >Inscribirme</Link>
+              rel='noopener noreferrer'
+            >
+              Inscribirme
+            </Link>
           </Button>
-          <button
-            className='md:hidden'
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
-            <Menu className='h-6 w-6 text-deep-blue' />
-          </button>
+          <div className='md:hidden'>
+            <HamburguerIcon
+              isSelected={mobileMenuOpen}
+              handleClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            />
+          </div>
         </div>
       </div>
 
-      {mobileMenuOpen && (
-        <div className='md:hidden border-t bg-white'>
-          <nav className='container mx-auto flex flex-col gap-4 p-4'>
+      <div
+        className={`md:max-h-0 overflow-hidden transition-all duration-300 border-t md:border-t-0 rounded-b-lg z-40 shadow-md ${
+          mobileMenuOpen ? 'max-h-screen' : 'max-h-0'
+        }`}
+      >
+        <nav className='container mx-auto flex flex-col gap-4 p-4'>
+          <Link
+            href='#evento'
+            className='text-sm font-medium text-deep-blue hover:text-violet'
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            El Evento
+          </Link>
+          <Link
+            href='#actividades'
+            className='text-sm font-medium text-deep-blue hover:text-violet'
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            Actividades
+          </Link>
+          <Link
+            href='#galeria'
+            className='text-sm font-medium text-deep-blue hover:text-violet'
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            Galería
+          </Link>
+          <Link
+            href='#faq'
+            className='text-sm font-medium text-deep-blue hover:text-violet'
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            Preguntas
+          </Link>
+          <Button
+            className='bg-violet hover:bg-violet/90 text-white font-semibold mt-2'
+            asChild
+          >
             <Link
-              href='#evento'
-              className='text-sm font-medium text-deep-blue hover:text-violet'
+              href='https://luma.com/lu65w0js'
+              target='_blank'
+              rel='noopener noreferrer'
+              onClick={() => setMobileMenuOpen(false)}
             >
-              El Evento
+              Inscribirme
             </Link>
-            <Link
-              href='#actividades'
-              className='text-sm font-medium text-deep-blue hover:text-violet'
-            >
-              Actividades
-            </Link>
-            <Link
-              href='#galeria'
-              className='text-sm font-medium text-deep-blue hover:text-violet'
-            >
-              Galería
-            </Link>
-            <Link
-              href='#faq'
-              className='text-sm font-medium text-deep-blue hover:text-violet'
-            >
-              Preguntas
-            </Link>
-          </nav>
-        </div>
-      )}
+          </Button>
+        </nav>
+      </div>
     </header>
   );
 }

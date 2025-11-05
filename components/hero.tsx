@@ -6,17 +6,17 @@ export function Hero() {
   return (
     <section className='relative overflow-hidden w-[calc(100%-2rem)] rounded-lg mt-28 bg-linear-to-br from-violet via-green to-yellow animate-gradient'>
       {/* Decorative elements */}
-      <div className='absolute top-10 left-10 w-20 h-20 opacity-30 animate-float'>
+      <div className='absolute top-4 left-4 md:top-10 md:left-10 w-12 h-12 md:w-20 md:h-20 opacity-20 md:opacity-30 animate-float'>
         <svg viewBox='0 0 100 100' className='text-cream'>
           <circle cx='50' cy='50' r='40' fill='currentColor' />
         </svg>
       </div>
-      <div className='absolute top-20 right-20 w-16 h-16 opacity-30 animate-float-delayed'>
+      <div className='absolute top-8 right-4 md:top-20 md:right-20 w-10 h-10 md:w-16 md:h-16 opacity-20 md:opacity-30 animate-float-delayed'>
         <svg viewBox='0 0 100 100' className='text-deep-blue'>
           <polygon points='50,10 90,90 10,90' fill='currentColor' />
         </svg>
       </div>
-      <div className='absolute bottom-20 left-1/4 w-24 h-24 opacity-20 animate-float'>
+      <div className='absolute bottom-8 left-1/4 md:bottom-20 w-16 h-16 md:w-24 md:h-24 opacity-15 md:opacity-20 animate-float'>
         <svg viewBox='0 0 100 100' className='text-cream'>
           <rect
             x='10'
@@ -29,7 +29,7 @@ export function Hero() {
         </svg>
       </div>
 
-      <div className='container mx-auto px-4 py-8 md:py-16'>
+      <div className='container mx-auto px-4 py-16 md:py-20'>
         <div className='flex flex-col items-center text-center max-w-4xl mx-auto'>
           {/* Date and time above title */}
           <p className='text-lg md:text-xl font-semibold text-cream mb-4'>
@@ -78,6 +78,7 @@ export function Hero() {
               <Link
                 href='https://luma.com/lu65w0js'
                 target='_blank'
+                rel='noopener noreferrer'
               >Inscribirme ahora</Link>
             </Button>
             <p className='text-sm font-semibold text-cream'>

@@ -1,6 +1,6 @@
 export function VideoTestimonial() {
   return (
-    <section className='py-8 md:py-16 w-[calc(100%-2rem)]'>
+    <section className='py-16 md:py-20 w-[calc(100%-2rem)]'>
       <div className='px-4 w-full flex flex-col gap-8 justify-center'>
         <h2 className='text-3xl md:text-5xl text-center font-bold text-deep-blue'>
           Por esto es importante que vengas

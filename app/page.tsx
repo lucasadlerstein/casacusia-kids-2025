@@ -7,17 +7,17 @@ import { Activities } from '@/components/activities';
 import { About } from '@/components/about';
 import { Gallery } from '@/components/gallery';
 import { Sponsors } from '@/components/sponsors';
-import { Fundraising } from '@/components/fundraising';
-import { Volunteer } from '@/components/volunteer';
+import { HelpSection } from '@/components/help-section';
 import { FAQ } from '@/components/faq';
 import { MapSection } from '@/components/map-section';
 import { Footer } from '@/components/footer';
+import { FloatingDonateButton } from '@/components/floating-donate-button';
 
 export default function Home() {
   return (
     <div className='min-h-screen bg-cream'>
       <Header />
-      <main className='flex flex-col items-center w-full gap-16'>
+      <main className='flex flex-col items-center w-full pb-32 md:pb-40'>
         <Hero />
         <Intro />
         <EmotionalSection />
@@ -26,12 +26,12 @@ export default function Home() {
         <About />
         <Gallery />
         <Sponsors />
-        <Fundraising />
-        <Volunteer />
+        <HelpSection />
         <FAQ />
         <MapSection />
       </main>
       <Footer />
+      <FloatingDonateButton />
     </div>
   );
 }
