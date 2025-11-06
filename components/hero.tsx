@@ -56,11 +56,11 @@ export function Hero() {
               Presentado por
             </p>
             <Image
-              src='/images/logo-amplitone.png'
+              src='/sponsors/presenta/Amplitone_Pediatrico.png'
               alt='Amplitone'
-              width={175}
-              height={55}
-              className='h-6 md:h-8 w-auto drop-shadow-[0px_0px_10px_rgba(0,0,0,0.25)]'
+              width={150}
+              height={80}
+              className='h-15 md:h-20 w-auto drop-shadow-[0px_0px_10px_rgba(0,0,0,0.25)]'
             />
           </div>
 

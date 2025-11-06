@@ -10,11 +10,11 @@ const sponsorsPresenta = [
 
 const sponsorsAcompanan = [
   { src: '/sponsors/acompanan/infinidad.png', alt: 'Infinidad' },
-  { src: '/sponsors/acompanan/iso.png', alt: 'ISO' },
-  { src: '/sponsors/acompanan/medel.png', alt: 'MED-EL' },
-  { src: '/sponsors/acompanan/pami.png', alt: 'PAMI' },
-  { src: '/sponsors/acompanan/paxassistance.png', alt: 'Pax Assistance' },
   { src: '/sponsors/acompanan/tecnosalud.png', alt: 'Tecnosalud' },
+  { src: '/sponsors/acompanan/paxassistance.png', alt: 'Pax Assistance' },
+  { src: '/sponsors/acompanan/medel.png', alt: 'MED-EL' },
+  { src: '/sponsors/acompanan/pam.png', alt: 'PAM' },
+  { src: '/sponsors/acompanan/iso.png', alt: 'ISO' },
 ];
 
 const sponsorsHacenPosible = [
@@ -27,6 +27,7 @@ const sponsorsHacenPosible = [
     alt: 'Parque de Innovación',
   },
   { src: '/sponsors/hacen_posible/psa.png', alt: 'PSA' },
+  { src: '/sponsors/hacen_posible/cic.png', alt: 'CIC' },
 ];
 
 export function Sponsors() {

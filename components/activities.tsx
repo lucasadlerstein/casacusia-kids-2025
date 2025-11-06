@@ -90,10 +90,10 @@ export function Activities() {
                 >
                   <Icon className='w-4 h-4 md:w-8 md:h-8 text-deep-blue' />
                 </div>
-                <h3 className='text-xs md:text-lg font-bold text-deep-blue text-center mb-1 md:mb-2 leading-tight'>
+                <h3 className='text-md md:text-xl font-bold text-deep-blue text-center mb-1 md:mb-2 leading-tight'>
                   {activity.title}
                 </h3>
-                <p className='text-[10px] md:text-sm text-deep-blue/70 text-center leading-tight'>
+                <p className='text-[14px] md:text-lg text-deep-blue/70 text-center leading-tight'>
                   {activity.description}
                 </p>
               </div>
@@ -115,7 +115,7 @@ export function Activities() {
             href='https://luma.com/lu65w0js'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-lg transition-all duration-300 bg-violet hover:bg-violet/90 hover:scale-105 text-white font-semibold rounded-lg px-4 py-2'
+            className='text-xl transition-all duration-300 bg-violet hover:bg-violet/90 hover:scale-105 text-white font-semibold rounded-lg px-4 py-2'
           >
             Inscribirme ahora
           </Link>

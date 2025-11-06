@@ -102,7 +102,7 @@ export function HelpSection() {
               asChild
               className='w-full mt-auto bg-green hover:bg-green/90 text-white'
             >
-              <Link href='#contacto'>Ver productos</Link>
+              <Link href='#contacto'>Vení temprano y conocelos!</Link>
             </Button>
           </div>
 
