@@ -65,18 +65,18 @@ export function Sponsors() {
             <h3 className='text-lg md:text-xl font-semibold text-deep-blue/60 uppercase tracking-wider text-center mb-4 md:mb-6'>
               Acompañan
             </h3>
-            <div className='flex flex-wrap items-center justify-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-8 max-w-5xl mx-auto'>
+            <div className='flex flex-wrap items-center justify-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-8 max-w-7xl mx-auto'>
               {sponsorsAcompanan.map((sponsor, index) => (
                 <div
                   key={index}
-                  className='relative h-12 sm:h-16 md:h-20 lg:h-20 xl:h-24 w-auto min-w-[100px] sm:min-w-[120px] md:min-w-[130px] lg:min-w-[140px] px-2 sm:px-3 md:px-4 lg:px-5'
+                  className='relative h-14 sm:h-18 md:h-22 lg:h-22 xl:h-26 w-auto min-w-[110px] sm:min-w-[130px] md:min-w-[140px] lg:min-w-[150px] px-2 sm:px-3 md:px-4 lg:px-5'
                 >
                   <Image
                     src={sponsor.src}
                     alt={sponsor.alt}
                     fill
                     className='object-contain'
-                    sizes='(max-width: 640px) 100px, (max-width: 768px) 120px, (max-width: 1024px) 130px, (max-width: 1280px) 140px, 160px'
+                    sizes='(max-width: 640px) 110px, (max-width: 768px) 130px, (max-width: 1024px) 140px, (max-width: 1280px) 150px, 170px'
                   />
                 </div>
               ))}
@@ -94,14 +94,14 @@ export function Sponsors() {
               {sponsorsHacenPosible.map((sponsor, index) => (
                 <div
                   key={index}
-                  className='relative h-12 sm:h-16 md:h-20 lg:h-20 xl:h-24 w-auto min-w-[100px] sm:min-w-[120px] md:min-w-[130px] lg:min-w-[140px] px-2 sm:px-3 md:px-4 lg:px-5'
+                  className='relative h-10 sm:h-14 md:h-18 lg:h-18 xl:h-22 w-auto min-w-[90px] sm:min-w-[110px] md:min-w-[120px] lg:min-w-[130px] px-2 sm:px-3 md:px-4 lg:px-5'
                 >
                   <Image
                     src={sponsor.src}
                     alt={sponsor.alt}
                     fill
                     className='object-contain'
-                    sizes='(max-width: 640px) 100px, (max-width: 768px) 120px, (max-width: 1024px) 130px, (max-width: 1280px) 140px, 160px'
+                    sizes='(max-width: 640px) 90px, (max-width: 768px) 110px, (max-width: 1024px) 120px, (max-width: 1280px) 130px, 150px'
                   />
                 </div>
               ))}
