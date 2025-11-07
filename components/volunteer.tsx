@@ -19,7 +19,7 @@ export function Volunteer() {
           </p>
 
           <Button size="lg" className="bg-yellow hover:bg-yellow/90 text-deep-blue font-bold" asChild>
-            <Link href="mailto:somos@casacusia.org">Quiero ser voluntario</Link>
+            <Link href="mailto:ari@casacusia.org">Quiero ser voluntario</Link>
           </Button>
         </div>
       </div>

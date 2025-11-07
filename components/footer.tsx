@@ -35,7 +35,7 @@ export function Footer() {
                   <Instagram className='h-6 w-6' />
                 </Link>
                 <Link
-                  href='mailto:somos@casacusia.org'
+                  href='mailto:ari@casacusia.org'
                   className='text-white/80 hover:text-violet transition-colors'
                   aria-label='Email'
                 >
@@ -89,7 +89,7 @@ export function Footer() {
               <ul className='space-y-2 md:space-y-3 text-xs md:text-sm text-white/80'>
                 <li>
                   <Link
-                    href='mailto:somos@casacusia.org'
+                    href='mailto:ari@casacusia.org'
                     className='hover:text-violet transition-colors flex items-center gap-2'
                   >
                     <Mail className='h-4 w-4' />

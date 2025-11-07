@@ -120,7 +120,7 @@ export function HelpSection() {
               asChild
               className='w-full mt-auto bg-yellow hover:bg-yellow/90 text-deep-blue font-bold'
             >
-              <Link href='mailto:somos@casacusia.org'>
+              <Link href='mailto:ari@casacusia.org'>
                 Quiero ser voluntario
               </Link>
             </Button>

@@ -22,10 +22,12 @@ const sponsorsHacenPosible = [
   { src: '/sponsors/hacen_posible/eterna.png', alt: 'Eterna' },
   { src: '/sponsors/hacen_posible/mimo.png', alt: 'Mimo' },
   { src: '/sponsors/hacen_posible/topper.png', alt: 'Topper' },
+  { src: '/sponsors/hacen_posible/cabrales.png', alt: 'Cabrales' },
   { src: '/sponsors/hacen_posible/psa.png', alt: 'PSA' },
   { src: '/sponsors/hacen_posible/parque_de_innovacion.png', alt: 'Parque de Innovación', },
   { src: '/sponsors/hacen_posible/cic.png', alt: 'CIC' },
   { src: '/sponsors/hacen_posible/casan.png', alt: 'CASAN' },
+  { src: '/sponsors/hacen_posible/las-ilusiones.png', alt: 'Las Ilusiones' },
 ];
 
 export function Sponsors() {
