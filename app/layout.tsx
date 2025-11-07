@@ -20,6 +20,23 @@ export const metadata: Metadata = {
     shortcut: "/images/isotipo-color.png",
     apple: "/images/isotipo-color.png",
   },
+    openGraph: {
+    title: "CASACUSIA Kids",
+    description: "Una tarde mágica donde los chicos con hipoacusia se encuentran y descubren que no son los únicos 💙",
+    url: "https://kids.casacusia.org",
+    siteName: "CASACUSIA",
+    images: [
+      {
+        url: "/images/kids-casacusia-share.png",
+        width: 1200,
+        height: 630,
+        alt: "CASACUSIA Kids - Comunidad y Juego",
+      },
+    ],
+    locale: "es_AR",
+    type: "website",
+  },
+
 }
 
 export default function RootLayout({

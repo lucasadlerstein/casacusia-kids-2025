@@ -18,16 +18,14 @@ const sponsorsAcompanan = [
 ];
 
 const sponsorsHacenPosible = [
-  { src: '/sponsors/hacen_posible/casan.png', alt: 'CASAN' },
   { src: '/sponsors/hacen_posible/doctored.png', alt: 'Doctored' },
   { src: '/sponsors/hacen_posible/eterna.png', alt: 'Eterna' },
   { src: '/sponsors/hacen_posible/mimo.png', alt: 'Mimo' },
-  {
-    src: '/sponsors/hacen_posible/parque_de_innovacion.png',
-    alt: 'Parque de Innovación',
-  },
+  { src: '/sponsors/hacen_posible/topper.png', alt: 'Topper' },
   { src: '/sponsors/hacen_posible/psa.png', alt: 'PSA' },
+  { src: '/sponsors/hacen_posible/parque_de_innovacion.png', alt: 'Parque de Innovación', },
   { src: '/sponsors/hacen_posible/cic.png', alt: 'CIC' },
+  { src: '/sponsors/hacen_posible/casan.png', alt: 'CASAN' },
 ];
 
 export function Sponsors() {
