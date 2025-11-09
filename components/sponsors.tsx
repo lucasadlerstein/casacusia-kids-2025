@@ -27,7 +27,9 @@ const sponsorsHacenPosible = [
   { src: '/sponsors/hacen_posible/parque_de_innovacion.png', alt: 'Parque de Innovación', },
   { src: '/sponsors/hacen_posible/cic.png', alt: 'CIC' },
   { src: '/sponsors/hacen_posible/casan.png', alt: 'CASAN' },
+  { src: '/sponsors/hacen_posible/via-cotone.png', alt: 'Via Cotone' },
   { src: '/sponsors/hacen_posible/las-ilusiones.png', alt: 'Las Ilusiones' },
+  { src: '/sponsors/hacen_posible/monococo.webp', alt: 'Monococo' },
 ];
 
 export function Sponsors() {
