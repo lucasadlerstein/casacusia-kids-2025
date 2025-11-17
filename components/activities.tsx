@@ -112,7 +112,7 @@ export function Activities() {
           </Button>
 
           <Link
-            href='https://luma.com/lu65w0js'
+            href='https://www.eventbrite.com.ar/e/casacusia-kids-tickets-1972692368979'
             target='_blank'
             rel='noopener noreferrer'
             className='text-xl transition-all duration-300 bg-violet hover:bg-violet/90 hover:scale-105 text-white font-semibold rounded-lg px-4 py-2'

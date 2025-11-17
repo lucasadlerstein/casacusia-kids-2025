@@ -55,7 +55,7 @@ export function Header() {
             asChild
           >
             <Link
-              href='https://luma.com/lu65w0js'
+              href='https://www.eventbrite.com.ar/e/casacusia-kids-tickets-1972692368979'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -110,7 +110,7 @@ export function Header() {
             asChild
           >
             <Link
-              href='https://luma.com/lu65w0js'
+              href='https://www.eventbrite.com.ar/e/casacusia-kids-tickets-1972692368979'
               target='_blank'
               rel='noopener noreferrer'
               onClick={() => setMobileMenuOpen(false)}
