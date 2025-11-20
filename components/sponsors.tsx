@@ -15,8 +15,8 @@ const sponsorsAcompanan = [
   { src: '/sponsors/acompanan/tecnosalud.png', alt: 'Tecnosalud' },
   { src: '/sponsors/acompanan/modo.png', alt: 'MODO' },
   { src: '/sponsors/acompanan/medel.png', alt: 'MED-EL' },
-  { src: '/sponsors/acompanan/pam.png', alt: 'PAM' },
   { src: '/sponsors/acompanan/iso.png', alt: 'ISO' },
+  { src: '/sponsors/acompanan/pam.png', alt: 'PAM' },
   { src: '/sponsors/acompanan/diller_logo.png', alt: 'Diller Teen Fellows' },
 ];
 
