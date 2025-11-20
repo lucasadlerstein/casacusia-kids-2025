@@ -10,11 +10,14 @@ const sponsorsPresenta = [
 
 const sponsorsAcompanan = [
   { src: '/sponsors/acompanan/infinidad.png', alt: 'Infinidad' },
-  { src: '/sponsors/acompanan/tecnosalud.png', alt: 'Tecnosalud' },
   { src: '/sponsors/acompanan/paxassistance.png', alt: 'Pax Assistance' },
+  { src: '/sponsors/acompanan/arcos-dorados.png', alt: 'Arcos Dorados' },
+  { src: '/sponsors/acompanan/tecnosalud.png', alt: 'Tecnosalud' },
+  { src: '/sponsors/acompanan/modo.png', alt: 'MODO' },
   { src: '/sponsors/acompanan/medel.png', alt: 'MED-EL' },
   { src: '/sponsors/acompanan/pam.png', alt: 'PAM' },
   { src: '/sponsors/acompanan/iso.png', alt: 'ISO' },
+  { src: '/sponsors/acompanan/diller_logo.png', alt: 'Diller Teen Fellows' },
 ];
 
 const sponsorsHacenPosible = [
@@ -23,10 +26,14 @@ const sponsorsHacenPosible = [
   { src: '/sponsors/hacen_posible/mimo.png', alt: 'Mimo' },
   { src: '/sponsors/hacen_posible/topper.png', alt: 'Topper' },
   { src: '/sponsors/hacen_posible/cabrales.png', alt: 'Cabrales' },
+  { src: '/sponsors/hacen_posible/calm.png', alt: 'CALM es Simple' },
   { src: '/sponsors/hacen_posible/psa.png', alt: 'PSA' },
   { src: '/sponsors/hacen_posible/parque_de_innovacion.png', alt: 'Parque de Innovación', },
   { src: '/sponsors/hacen_posible/cic.png', alt: 'CIC' },
+  { src: '/sponsors/hacen_posible/zafran.png', alt: 'Zafran' },
+  { src: '/sponsors/hacen_posible/py-media.webp', alt: 'PY MEDIA' },
   { src: '/sponsors/hacen_posible/casan.png', alt: 'CASAN' },
+  { src: '/sponsors/hacen_posible/basani.png', alt: 'Basani' },
   { src: '/sponsors/hacen_posible/via-cotone.png', alt: 'Via Cotone' },
   { src: '/sponsors/hacen_posible/las-ilusiones.png', alt: 'Las Ilusiones' },
   { src: '/sponsors/hacen_posible/monococo.webp', alt: 'Monococo' },
