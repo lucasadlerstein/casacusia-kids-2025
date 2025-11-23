@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "CASACUSIA",
     images: [
       {
-        url: "/images/kids-casacusia-share.png",
+        url: "images/kids-casacusia-share.png",
         width: 1200,
         height: 630,
         alt: "CASACUSIA Kids - Comunidad y Juego",
