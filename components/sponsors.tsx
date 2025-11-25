@@ -74,21 +74,54 @@ export function Sponsors() {
             <h3 className='text-lg md:text-xl font-semibold text-deep-blue/60 uppercase tracking-wider text-center mb-4 md:mb-6'>
               Acompañan
             </h3>
-            <div className='flex flex-wrap items-center justify-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-8 max-w-7xl mx-auto'>
-              {sponsorsAcompanan.map((sponsor, index) => (
-                <div
-                  key={index}
-                  className='relative h-14 sm:h-18 md:h-22 lg:h-22 xl:h-26 w-auto min-w-[110px] sm:min-w-[130px] md:min-w-[140px] lg:min-w-[150px] px-2 sm:px-3 md:px-4 lg:px-5'
-                >
-                  <Image
-                    src={sponsor.src}
-                    alt={sponsor.alt}
-                    fill
-                    className='object-contain'
-                    sizes='(max-width: 640px) 110px, (max-width: 768px) 130px, (max-width: 1024px) 140px, (max-width: 1280px) 150px, 170px'
-                  />
-                </div>
-              ))}
+            <div className='flex flex-col gap-6 md:gap-8 max-w-5xl mx-auto'>
+              {/* Fila superior: Infinidad y Tecnosalud (más grandes) */}
+              <div className='flex items-center justify-center gap-6 md:gap-8 lg:gap-12'>
+                {sponsorsAcompanan
+                  .filter(
+                    (sponsor) =>
+                      sponsor.alt === 'Infinidad' ||
+                      sponsor.alt === 'Tecnosalud'
+                  )
+                  .map((sponsor, index) => (
+                    <div
+                      key={sponsor.alt}
+                      className='relative h-16 sm:h-24 md:h-32 lg:h-36 xl:h-40 w-auto min-w-[140px] sm:min-w-[180px] md:min-w-[220px] lg:min-w-[260px] px-3 sm:px-4 md:px-5 lg:px-6'
+                    >
+                      <Image
+                        src={sponsor.src}
+                        alt={sponsor.alt}
+                        fill
+                        className='object-contain'
+                        sizes='(max-width: 640px) 140px, (max-width: 768px) 180px, (max-width: 1024px) 220px, (max-width: 1280px) 260px, 300px'
+                      />
+                    </div>
+                  ))}
+              </div>
+
+              {/* Fila inferior: ISO, MED-EL, PAMI, Pax Assistance (más chicos) */}
+              <div className='flex flex-wrap items-center justify-center gap-3 sm:gap-4 md:gap-5 lg:gap-6'>
+                {sponsorsAcompanan
+                  .filter(
+                    (sponsor) =>
+                      sponsor.alt !== 'Infinidad' &&
+                      sponsor.alt !== 'Tecnosalud'
+                  )
+                  .map((sponsor, index) => (
+                    <div
+                      key={sponsor.alt}
+                      className='relative h-10 sm:h-12 md:h-16 lg:h-20 xl:h-20 w-auto min-w-[80px] sm:min-w-[100px] md:min-w-[110px] lg:min-w-[120px] px-2 sm:px-3 md:px-4'
+                    >
+                      <Image
+                        src={sponsor.src}
+                        alt={sponsor.alt}
+                        fill
+                        className='object-contain'
+                        sizes='(max-width: 640px) 80px, (max-width: 768px) 100px, (max-width: 1024px) 110px, (max-width: 1280px) 120px, 140px'
+                      />
+                    </div>
+                  ))}
+              </div>
             </div>
           </div>
         )}
