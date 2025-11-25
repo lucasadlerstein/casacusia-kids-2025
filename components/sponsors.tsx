@@ -31,6 +31,7 @@ const sponsorsHacenPosible = [
   { src: '/sponsors/hacen_posible/parque_de_innovacion.png', alt: 'Parque de Innovación', },
   { src: '/sponsors/hacen_posible/cic.png', alt: 'CIC' },
   { src: '/sponsors/hacen_posible/zafran.png', alt: 'Zafran' },
+  { src: '/sponsors/hacen_posible/perfect-print.png', alt: 'Perfect Print' },
   { src: '/sponsors/hacen_posible/py-media.webp', alt: 'PY MEDIA' },
   { src: '/sponsors/hacen_posible/casan.png', alt: 'CASAN' },
   { src: '/sponsors/hacen_posible/basani.png', alt: 'Basani' },
@@ -80,8 +81,7 @@ export function Sponsors() {
                 {sponsorsAcompanan
                   .filter(
                     (sponsor) =>
-                      sponsor.alt === 'Infinidad' ||
-                      sponsor.alt === 'Tecnosalud'
+                      sponsor.alt === 'Infinidad'
                   )
                   .map((sponsor, index) => (
                     <div
@@ -104,8 +104,7 @@ export function Sponsors() {
                 {sponsorsAcompanan
                   .filter(
                     (sponsor) =>
-                      sponsor.alt !== 'Infinidad' &&
-                      sponsor.alt !== 'Tecnosalud'
+                      sponsor.alt !== 'Infinidad'
                   )
                   .map((sponsor, index) => (
                     <div
