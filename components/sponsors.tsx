@@ -93,6 +93,7 @@ export function Sponsors() {
                         alt={sponsor.alt}
                         fill
                         className='object-contain'
+                        
                         sizes='(max-width: 640px) 140px, (max-width: 768px) 180px, (max-width: 1024px) 220px, (max-width: 1280px) 260px, 300px'
                       />
                     </div>
