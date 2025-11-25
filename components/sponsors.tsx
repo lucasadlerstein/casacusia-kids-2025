@@ -28,7 +28,10 @@ const sponsorsHacenPosible = [
   { src: '/sponsors/hacen_posible/cabrales.png', alt: 'Cabrales' },
   { src: '/sponsors/hacen_posible/calm.png', alt: 'CALM es Simple' },
   { src: '/sponsors/hacen_posible/psa.png', alt: 'PSA' },
-  { src: '/sponsors/hacen_posible/parque_de_innovacion.png', alt: 'Parque de Innovación', },
+  {
+    src: '/sponsors/hacen_posible/parque_de_innovacion.png',
+    alt: 'Parque de Innovación',
+  },
   { src: '/sponsors/hacen_posible/cic.png', alt: 'CIC' },
   { src: '/sponsors/hacen_posible/zafran.png', alt: 'Zafran' },
   { src: '/sponsors/hacen_posible/perfect-print.png', alt: 'Perfect Print' },
@@ -79,10 +82,7 @@ export function Sponsors() {
               {/* Fila superior: Infinidad y Tecnosalud (más grandes) */}
               <div className='flex items-center justify-center gap-6 md:gap-8 lg:gap-12'>
                 {sponsorsAcompanan
-                  .filter(
-                    (sponsor) =>
-                      sponsor.alt === 'Infinidad'
-                  )
+                  .filter((sponsor) => sponsor.alt === 'Infinidad')
                   .map((sponsor, index) => (
                     <div
                       key={sponsor.alt}
@@ -93,7 +93,6 @@ export function Sponsors() {
                         alt={sponsor.alt}
                         fill
                         className='object-contain'
-                        
                         sizes='(max-width: 640px) 140px, (max-width: 768px) 180px, (max-width: 1024px) 220px, (max-width: 1280px) 260px, 300px'
                       />
                     </div>
@@ -103,24 +102,32 @@ export function Sponsors() {
               {/* Fila inferior: ISO, MED-EL, PAMI, Pax Assistance (más chicos) */}
               <div className='flex flex-wrap items-center justify-center gap-3 sm:gap-4 md:gap-5 lg:gap-6'>
                 {sponsorsAcompanan
-                  .filter(
-                    (sponsor) =>
-                      sponsor.alt !== 'Infinidad'
-                  )
-                  .map((sponsor, index) => (
-                    <div
-                      key={sponsor.alt}
-                      className='relative h-10 sm:h-12 md:h-16 lg:h-20 xl:h-20 w-auto min-w-[80px] sm:min-w-[100px] md:min-w-[110px] lg:min-w-[120px] px-2 sm:px-3 md:px-4'
-                    >
-                      <Image
-                        src={sponsor.src}
-                        alt={sponsor.alt}
-                        fill
-                        className='object-contain'
-                        sizes='(max-width: 640px) 80px, (max-width: 768px) 100px, (max-width: 1024px) 110px, (max-width: 1280px) 120px, 140px'
-                      />
-                    </div>
-                  ))}
+                  .filter((sponsor) => sponsor.alt !== 'Infinidad')
+                  .map((sponsor, index) => {
+                    const isTecnosalud = sponsor.alt === 'Tecnosalud';
+                    return (
+                      <div
+                        key={sponsor.alt}
+                        className={`relative h-10 sm:h-12 md:h-16 lg:h-20 xl:h-20 w-auto px-2 sm:px-3 md:px-4 ${
+                          isTecnosalud
+                            ? 'min-w-[140px] sm:min-w-[180px] md:min-w-[200px] lg:min-w-[220px] xl:min-w-[240px]'
+                            : 'min-w-[80px] sm:min-w-[100px] md:min-w-[110px] lg:min-w-[120px]'
+                        }`}
+                      >
+                        <Image
+                          src={sponsor.src}
+                          alt={sponsor.alt}
+                          fill
+                          className='object-contain'
+                          sizes={
+                            isTecnosalud
+                              ? '(max-width: 640px) 140px, (max-width: 768px) 180px, (max-width: 1024px) 200px, (max-width: 1280px) 220px, 240px'
+                              : '(max-width: 640px) 80px, (max-width: 768px) 100px, (max-width: 1024px) 110px, (max-width: 1280px) 120px, 140px'
+                          }
+                        />
+                      </div>
+                    );
+                  })}
               </div>
             </div>
           </div>
