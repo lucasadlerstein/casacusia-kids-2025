@@ -22,7 +22,7 @@ export function Intro() {
           <div className='flex flex-col items-center text-center p-4 md:p-6 border-2 border-violet bg-violet/10 hover:shadow-lg rounded-lg'>
             <Calendar className='w-10 h-10 md:w-12 md:h-12 text-deep-blue mb-3 md:mb-4' />
             <h3 className='text-base md:text-lg font-bold text-deep-blue mb-2'>Fecha</h3>
-            <p className='text-sm md:text-base text-deep-blue'>Domingo 30 de Noviembre, 2025</p>
+            <p className='text-sm md:text-base text-deep-blue'>Domingo 14 de Diciembre, 2025</p>
           </div>
 
           <div className='flex flex-col items-center text-center p-4 md:p-6 border-2 border-green bg-green/10 hover:shadow-lg rounded-lg'>
