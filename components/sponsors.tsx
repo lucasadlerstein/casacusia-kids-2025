@@ -35,6 +35,7 @@ const sponsorsHacenPosible = [
   { src: '/sponsors/hacen_posible/cic.png', alt: 'CIC' },
   { src: '/sponsors/hacen_posible/zafran.png', alt: 'Zafran' },
   { src: '/sponsors/hacen_posible/perfect-print.png', alt: 'Perfect Print' },
+  { src: '/sponsors/hacen_posible/a20indumentaria.png', alt: 'A20 Indumentaria' },
   { src: '/sponsors/hacen_posible/py-media.webp', alt: 'PY MEDIA' },
   { src: '/sponsors/hacen_posible/casan.png', alt: 'CASAN' },
   { src: '/sponsors/hacen_posible/basani.png', alt: 'Basani' },
