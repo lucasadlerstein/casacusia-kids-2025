@@ -42,6 +42,7 @@ const sponsorsHacenPosible = [
   { src: '/sponsors/hacen_posible/via-cotone.png', alt: 'Via Cotone' },
   { src: '/sponsors/hacen_posible/las-ilusiones.png', alt: 'Las Ilusiones' },
   { src: '/sponsors/hacen_posible/monococo.webp', alt: 'Monococo' },
+  { src: '/sponsors/hacen_posible/fime.jpeg', alt: 'FIME Bastidores' },
 ];
 
 export function Sponsors() {
