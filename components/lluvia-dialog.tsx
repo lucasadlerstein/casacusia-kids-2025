@@ -26,11 +26,11 @@ export function RainNoticeDialog() {
               Casacusia Kids.
             </p>
             <p>
-              <strong>📅 Nueva fecha:</strong> domingo 14 de diciembre
+              <strong>📅 Nueva fecha:</strong> Marzo/Abril 2026
               <br />
-              <strong>🕑 Horario:</strong> de 14 a 18 h
+              <strong>A confirmar</strong> en febrero 2026.
               <br />
-              <strong>📍 Lugar:</strong> Parque de la Innovación (CABA)
+              <strong>Gracias</strong> por el apoyo y la comprensión.
             </p>
           </DialogDescription>
         </DialogHeader>
