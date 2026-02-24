@@ -11,9 +11,9 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "CASACUSIA KIDS 2025 - Evento para chicos con hipoacusia",
+  title: "CASACUSIA KIDS 2026 - Evento para chicos con hipoacusia",
   description:
-    "Un evento gratuito para que chicos y chicas con hipoacusia se diviertan, jueguen y vean que no son los únicos. 14 de Diciembre, Parque de la Innovación.",
+    "Un evento gratuito para que chicos y chicas con hipoacusia se diviertan, jueguen y vean que no son los únicos. 28 de Marzo, Parque de la Innovación.",
   generator: "v0.app",
   icons: {
     icon: "/images/isotipo-color.png",

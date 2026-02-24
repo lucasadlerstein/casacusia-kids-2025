@@ -33,7 +33,7 @@ export function Hero() {
         <div className='flex flex-col items-center text-center max-w-4xl mx-auto'>
           {/* Date and time above title */}
           <p className='text-lg md:text-xl font-semibold text-cream mb-4'>
-            Marzo 2026 • 14 a 18hs
+            Sábado 28 de Marzo de 2026 • 14 a 18hs
           </p>
 
           <div className='mb-6'>

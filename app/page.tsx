@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className='min-h-screen bg-cream'>
       <Header />
-      <RainNoticeDialog />
+      {/* <RainNoticeDialog /> */}
       <main className='flex flex-col items-center w-full pb-32 md:pb-40'>
         <Hero />
         <Intro />
