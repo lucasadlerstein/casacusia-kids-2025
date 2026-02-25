@@ -50,7 +50,7 @@ export function Intro() {
           </div>
           <Link
             className='bg-[#F44475] hover:bg-[#F44475]/90 text-white font-semibold rounded-lg px-4 py-2 text-sm md:text-base text-center whitespace-nowrap shrink-0'
-            href='https://www.eventbrite.com.ar/e/casacusia-kids-tickets-1972692368979'
+            href='https://www.eventbrite.com.ar/e/casacusia-kids-2026-tickets-1983979000598'
             target='_blank'
             rel='noopener noreferrer'
           >

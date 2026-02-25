@@ -17,20 +17,15 @@ export function RainNoticeDialog() {
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
           <DialogTitle>
-            🌧️✨ Casacusia Kids se reprograma por lluvia
+            ✨ Casacusia Kids 2026
           </DialogTitle>
           <DialogDescription className="space-y-3 text-left text-base">
             <p>
-              Para cuidar la experiencia de los chicos y de las familias, y
-              viendo el pronóstico de estos días, decidimos reprogramar
-              Casacusia Kids.
+              Tu entrada del 2025 no es válida, debes sacar una nueva en esta web.
             </p>
             <p>
-              <strong>📅 Nueva fecha:</strong> Marzo/Abril 2026
-              <br />
-              <strong>A confirmar</strong> en febrero 2026.
-              <br />
-              <strong>Gracias</strong> por el apoyo y la comprensión.
+              <strong>📅 Nueva fecha:</strong> Sábado 28 de marzo de 2026
+              <strong>Gracias</strong> por el apoyo y nos vemos pronto!!
             </p>
           </DialogDescription>
         </DialogHeader>

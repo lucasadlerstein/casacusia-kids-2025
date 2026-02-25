@@ -112,7 +112,7 @@ export function Activities() {
           </Button>
 
           <Link
-            href='https://www.eventbrite.com.ar/e/casacusia-kids-tickets-1972692368979'
+            href='https://www.eventbrite.com.ar/e/casacusia-kids-2026-tickets-1983979000598'
             target='_blank'
             rel='noopener noreferrer'
             className='text-xl transition-all duration-300 bg-violet hover:bg-violet/90 hover:scale-105 text-white font-semibold rounded-lg px-4 py-2'

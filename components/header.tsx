@@ -55,7 +55,7 @@ export function Header() {
             asChild
           >
             <Link
-              href='https://www.eventbrite.com.ar/e/casacusia-kids-tickets-1972692368979'
+              href='https://www.eventbrite.com.ar/e/casacusia-kids-2026-tickets-1983979000598'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -110,7 +110,7 @@ export function Header() {
             asChild
           >
             <Link
-              href='https://www.eventbrite.com.ar/e/casacusia-kids-tickets-1972692368979'
+              href='https://www.eventbrite.com.ar/e/casacusia-kids-2026-tickets-1983979000598'
               target='_blank'
               rel='noopener noreferrer'
               onClick={() => setMobileMenuOpen(false)}
